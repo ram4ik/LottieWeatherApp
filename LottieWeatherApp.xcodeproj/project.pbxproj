@@ -13,6 +13,7 @@
 		95468B1B2645B70E003563FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95468B1A2645B70E003563FB /* Preview Assets.xcassets */; };
 		95468B282645BB8A003563FB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B272645BB8A003563FB /* API.swift */; };
 		95468B2A2645BBB7003563FB /* API+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B292645BBB7003563FB /* API+extensions.swift */; };
+		95468B2C2645BD3C003563FB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B2B2645BD3C003563FB /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95468B1C2645B70E003563FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95468B272645BB8A003563FB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		95468B292645BBB7003563FB /* API+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+extensions.swift"; sourceTree = "<group>"; };
+		95468B2B2645BD3C003563FB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				95468B272645BB8A003563FB /* API.swift */,
 				95468B292645BBB7003563FB /* API+extensions.swift */,
+				95468B2B2645BD3C003563FB /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				95468B2A2645BBB7003563FB /* API+extensions.swift in Sources */,
 				95468B162645B70C003563FB /* ContentView.swift in Sources */,
+				95468B2C2645BD3C003563FB /* NetworkManager.swift in Sources */,
 				95468B282645BB8A003563FB /* API.swift in Sources */,
 				95468B142645B70C003563FB /* LottieWeatherAppApp.swift in Sources */,
 			);
