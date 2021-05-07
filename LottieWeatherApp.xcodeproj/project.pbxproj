@@ -11,6 +11,8 @@
 		95468B162645B70C003563FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B152645B70C003563FB /* ContentView.swift */; };
 		95468B182645B70E003563FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95468B172645B70E003563FB /* Assets.xcassets */; };
 		95468B1B2645B70E003563FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95468B1A2645B70E003563FB /* Preview Assets.xcassets */; };
+		95468B282645BB8A003563FB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B272645BB8A003563FB /* API.swift */; };
+		95468B2A2645BBB7003563FB /* API+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B292645BBB7003563FB /* API+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		95468B172645B70E003563FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95468B1A2645B70E003563FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95468B1C2645B70E003563FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95468B272645BB8A003563FB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		95468B292645BBB7003563FB /* API+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,11 @@
 		95468B122645B70C003563FB /* LottieWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				95468B262645BB5D003563FB /* LottieAnimations */,
+				95468B252645BB55003563FB /* ViewModels */,
+				95468B242645BB4C003563FB /* Models */,
+				95468B232645BB30003563FB /* Network */,
+				95468B222645BB2C003563FB /* Views */,
 				95468B132645B70C003563FB /* LottieWeatherAppApp.swift */,
 				95468B152645B70C003563FB /* ContentView.swift */,
 				95468B172645B70E003563FB /* Assets.xcassets */,
@@ -67,6 +76,43 @@
 				95468B1A2645B70E003563FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95468B222645BB2C003563FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95468B232645BB30003563FB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				95468B272645BB8A003563FB /* API.swift */,
+				95468B292645BBB7003563FB /* API+extensions.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		95468B242645BB4C003563FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95468B252645BB55003563FB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		95468B262645BB5D003563FB /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95468B2A2645BBB7003563FB /* API+extensions.swift in Sources */,
 				95468B162645B70C003563FB /* ContentView.swift in Sources */,
+				95468B282645BB8A003563FB /* API.swift in Sources */,
 				95468B142645B70C003563FB /* LottieWeatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
