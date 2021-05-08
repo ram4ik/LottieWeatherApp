@@ -200,7 +200,7 @@ final class CityViewViewModel: ObservableObject {
         case "50n":
             return Image(systemName: "cloud.fog.fill")
         default:
-            return Image(systemName: "sun.nax.fill")
+            return Image(systemName: "sun.max.fill")
         }
     }
 }
