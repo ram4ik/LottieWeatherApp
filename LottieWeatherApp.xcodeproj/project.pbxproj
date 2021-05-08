@@ -45,6 +45,7 @@
 		95468B67264714F0003563FB /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B66264714F0003563FB /* TodayWeatherView.swift */; };
 		95468B692647191D003563FB /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B682647191D003563FB /* HourlyWeatherView.swift */; };
 		95468B6B26471B96003563FB /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B6A26471B96003563FB /* DailyWeatherView.swift */; };
+		95468B6D26471D80003563FB /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B6C26471D80003563FB /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		95468B66264714F0003563FB /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
 		95468B682647191D003563FB /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
 		95468B6A26471B96003563FB /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
+		95468B6C26471D80003563FB /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				95468B66264714F0003563FB /* TodayWeatherView.swift */,
 				95468B682647191D003563FB /* HourlyWeatherView.swift */,
 				95468B6A26471B96003563FB /* DailyWeatherView.swift */,
+				95468B6C26471D80003563FB /* CityView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				95468B6526471443003563FB /* CityNameView.swift in Sources */,
 				95468B322645C0E2003563FB /* WeatherDetail.swift in Sources */,
 				95468B2E2645C090003563FB /* WeatherResponse.swift in Sources */,
+				95468B6D26471D80003563FB /* CityView.swift in Sources */,
 				95468B162645B70C003563FB /* ContentView.swift in Sources */,
 				95468B2C2645BD3C003563FB /* NetworkManager.swift in Sources */,
 				95468B282645BB8A003563FB /* API.swift in Sources */,
