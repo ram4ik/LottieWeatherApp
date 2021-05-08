@@ -19,6 +19,7 @@
 		95468B322645C0E2003563FB /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B312645C0E2003563FB /* WeatherDetail.swift */; };
 		95468B342645C0F4003563FB /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B332645C0F4003563FB /* DailyWeather.swift */; };
 		95468B362645C109003563FB /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B352645C109003563FB /* Temperature.swift */; };
+		95468B38264691D7003563FB /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B37264691D7003563FB /* CityViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		95468B312645C0E2003563FB /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
 		95468B332645C0F4003563FB /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		95468B352645C109003563FB /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		95468B37264691D7003563FB /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		95468B252645BB55003563FB /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				95468B37264691D7003563FB /* CityViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95468B2A2645BBB7003563FB /* API+extensions.swift in Sources */,
+				95468B38264691D7003563FB /* CityViewViewModel.swift in Sources */,
 				95468B322645C0E2003563FB /* WeatherDetail.swift in Sources */,
 				95468B2E2645C090003563FB /* WeatherResponse.swift in Sources */,
 				95468B162645B70C003563FB /* ContentView.swift in Sources */,
