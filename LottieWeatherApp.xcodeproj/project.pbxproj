@@ -40,6 +40,7 @@
 		95468B5E26470F0E003563FB /* nightMist.json in Resources */ = {isa = PBXBuildFile; fileRef = 95468B4C26470F0E003563FB /* nightMist.json */; };
 		95468B5F26470F0E003563FB /* dayThunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = 95468B4D26470F0E003563FB /* dayThunderstorm.json */; };
 		95468B6126470F33003563FB /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B6026470F33003563FB /* LottieView.swift */; };
+		95468B6326471298003563FB /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B6226471298003563FB /* MenuHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		95468B4C26470F0E003563FB /* nightMist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightMist.json; sourceTree = "<group>"; };
 		95468B4D26470F0E003563FB /* dayThunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayThunderstorm.json; sourceTree = "<group>"; };
 		95468B6026470F33003563FB /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		95468B6226471298003563FB /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				95468B6026470F33003563FB /* LottieView.swift */,
+				95468B6226471298003563FB /* MenuHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				95468B162645B70C003563FB /* ContentView.swift in Sources */,
 				95468B2C2645BD3C003563FB /* NetworkManager.swift in Sources */,
 				95468B282645BB8A003563FB /* API.swift in Sources */,
+				95468B6326471298003563FB /* MenuHeaderView.swift in Sources */,
 				95468B142645B70C003563FB /* LottieWeatherAppApp.swift in Sources */,
 				95468B302645C0D3003563FB /* Weather.swift in Sources */,
 				95468B362645C109003563FB /* Temperature.swift in Sources */,
